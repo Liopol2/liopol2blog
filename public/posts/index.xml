@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on My New Hugo Site</title>
-    <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on My New Hugo Site</description>
+    <title>Posts on Liopol2Blog</title>
+    <link>https://liopol2blog.netlify.app/posts/</link>
+    <description>Recent content in Posts on Liopol2Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>leonardosoumas3@gmail.com (Liopol2)</managingEditor>
     <webMaster>leonardosoumas3@gmail.com (Liopol2)</webMaster>
-    <lastBuildDate>Wed, 24 Jul 2024 19:43:00 -0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 Aug 2024 19:44:39 -0300</lastBuildDate>
+    <atom:link href="https://liopol2blog.netlify.app/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Recomended Programs</title>
+      <link>https://liopol2blog.netlify.app/posts/recomendedprograms/recomendedprograms/</link>
+      <pubDate>Tue, 13 Aug 2024 19:44:39 -0300</pubDate><author>leonardosoumas3@gmail.com (Liopol2)</author>
+      <guid>https://liopol2blog.netlify.app/posts/recomendedprograms/recomendedprograms/</guid>
+      <description>This is a list of FREE programs that I&amp;rsquo;ve colleted over time, in no particular order that I think a common user needs to know, even if it does not fit your use case, or if you do not find a use for them at this point&#xA;General Utilities Syncthing Syncthing it&amp;rsquo;s a simple utility that you can set and forget that allows you to sync your data across multiple devices, free and open source, available in linux, windows, android and more.</description>
+    </item>
     <item>
       <title>Windows Optimization</title>
-      <link>http://localhost:1313/posts/windowsoptimization/windowsoptimization/</link>
+      <link>https://liopol2blog.netlify.app/posts/windowsoptimization/windowsoptimization/</link>
       <pubDate>Wed, 24 Jul 2024 19:43:00 -0300</pubDate><author>leonardosoumas3@gmail.com (Liopol2)</author>
-      <guid>http://localhost:1313/posts/windowsoptimization/windowsoptimization/</guid>
+      <guid>https://liopol2blog.netlify.app/posts/windowsoptimization/windowsoptimization/</guid>
       <description>Let&amp;rsquo;s face it, even though a bunch of people like to dunk on it, and with a lot of valid points, most of the population does end up using microsoft OS for most of their daily desktop computing needs, be it work or leisure, it market share it&amp;rsquo;s undeniable.&#xA;Altough there has been a huge raise of linux users with the release of the various versions of the steam deck, Windows is by far the most used desktop operative system.</description>
     </item>
     <item>
       <title>Linux on a nutshell</title>
-      <link>http://localhost:1313/posts/linux/linux/</link>
+      <link>https://liopol2blog.netlify.app/posts/linux/linux/</link>
       <pubDate>Mon, 22 Jul 2024 00:02:56 -0300</pubDate><author>leonardosoumas3@gmail.com (Liopol2)</author>
-      <guid>http://localhost:1313/posts/linux/linux/</guid>
+      <guid>https://liopol2blog.netlify.app/posts/linux/linux/</guid>
       <description>Desktop Linux users are the vegans of technology, annoying and obnuxious individuals which have to let you know that they are moraly superior because they belong to the penguin side, but is it any truth to their claims is it any reason for a &amp;ldquo;normal&amp;rdquo; person to switch to linux?.&#xA;Today we will discuss points against and on favor of GNU/Linux Systems.&#xA;Let&amp;rsquo;s start from the bad side of linux, this is a short list of reasons for you to stay away, or do some more research on the topic before jumping head first into this OS&amp;hellip; s?</description>
-    </item>
-    <item>
-      <title>About</title>
-      <link>http://localhost:1313/posts/about/</link>
-      <pubDate>Sun, 21 Jul 2024 22:37:09 -0300</pubDate><author>leonardosoumas3@gmail.com (Liopol2)</author>
-      <guid>http://localhost:1313/posts/about/</guid>
-      <description>Whoami I&amp;rsquo;m a person which likes to fidget with technology, eventually I got a job where I get paid to program, and fund some of my proyects (including this one), also to pay for the ever-increasingly cost of living and the deligthful server-grade hardware that I can afford.&#xA;What I want this place to be: I am open to any idea, to the point to which I&amp;rsquo;m not even sure if the entirety of this site is going to be written exclusively in one language.</description>
     </item>
   </channel>
 </rss>

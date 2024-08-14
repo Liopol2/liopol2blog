@@ -1,4 +1,57 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://liopol2blog.netlify.app/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Liopol2Blog'
 theme='nightfall'
+
+[module]
+  [module.hugoVersion]
+    min = "0.114.0"
+
+
+[menu]
+  [[menu.header]]
+    name = "blog"
+    weight = 0
+    url = "https://liopol2blog.netlify.app/posts"
+  [[menu.header]]
+    name = "about"
+    weight = 1
+    url = "https://liopol2blog.netlify.app/about"
+
+[params]
+user = "liopol2"
+hostname = "netlify.io"
+  [params.author]
+    name = "Liopol2"  # Website and RSS feed author
+    email = "leonardosoumas3@gmail.com"  # RSS feed email address
+
+
+readingTime = true  # Show reading time on post page
+published = true  # Show published data on post page
+
+[[params.social]]
+key = 0
+name = "Github"
+url = "https://github.com/Liopol2"
+target = "_blank"
+aria = "GitHub Profile"
+
+[[params.social]]
+key = 1
+name = "Youtube"
+url = "https://www.youtube.com/@liopo9000"
+target = "_blank"
+aria = "Youtube"
+
+[[params.social]]
+key = 2
+name = "LinkedIn"
+url = "https://www.linkedin.com/in/ls1997/"
+target = "_blank"
+aria = "LinkedIn Profile"
+
+[[params.social]]
+key = 3
+name = "Email"
+url = "mailto:leonardosoumas3@gmail.com"
+aria = "My e-Mail Address"
