@@ -10,12 +10,16 @@ theme='nightfall'
 
 [menu]
   [[menu.header]]
-    name = "blog"
+    name = "projects"
     weight = 0
+    url = "https://liopol2blog.netlify.app/projects"
+  [[menu.header]]
+    name = "blog"
+    weight = 1
     url = "https://liopol2blog.netlify.app/posts"
   [[menu.header]]
     name = "about"
-    weight = 1
+    weight = 2
     url = "https://liopol2blog.netlify.app/about"
 
 [params]

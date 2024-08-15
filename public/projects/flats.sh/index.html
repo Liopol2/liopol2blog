@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>
+Flats.sh | Liopol2
+</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+
+<meta name="generator" content="Hugo 0.129.0">
+
+
+<link rel="canonical" href="https://liopol2blog.netlify.app/projects/flats.sh/" >
+
+
+
+
+<link href="/css/style.min.d23c1980faa61c0d6b331a0cd9dbc34fb7dade9e294067f1108fb8f26bd7796c.css" rel="stylesheet">
+
+
+
+
+</head>
+
+<body>
+
+    <div class="flexWrapper">
+        <header class="headerWrapper">
+    <div class="header">
+        <div>
+            <a class="terminal" href="https://liopol2blog.netlify.app/">
+                <span>liopol2@netlify.io ~ $</span>
+            </a>
+        </div>
+        <input class="side-menu" type="checkbox" id="side-menu">
+        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+        <nav class="headerLinks">
+            <ul>
+                
+                <li>
+                    <a href="https://liopol2blog.netlify.app/posts" title="" >
+                        ~/blog</a>
+                </li>
+                
+                <li>
+                    <a href="https://liopol2blog.netlify.app/about" title="" >
+                        ~/about</a>
+                </li>
+                
+                <li>
+                    <a href="https://liopol2blog.netlify.app/projects" title="" >
+                        ~/projects</a>
+                </li>
+                
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+        <div class="content">
+            <main class="main">
+                
+<div class="postWrapper">
+    <h1>Flats.sh</h1>
+    
+    
+    <section class="postMetadata">
+        <dl>
+            
+            
+            
+            
+                <dt>published</dt>
+                
+                <dd><time datetime="2024-08-13">August 13, 2024</time></dd>
+            
+            
+                <dt>reading time</dt>
+                <dd>3 minutes</dd>
+            
+        </dl>
+    </section>
+    
+    <div>
+        <p>Nada como un nuevo inicio, ya sea un nuevo dia, nuevo trabajo, nuevo auto, o porque no nuevo sistema.</p>
+<p>Pero desgraciadamente, siempre que empezamos de 0 hay cosas que cambiar, para dejar todo a nuestro gusto,
+Este es mi caso cada que decido probar una nueva distro o cuando mi sistema lleva demasiado tiempo sin un buen reset.</p>
+<p>Durante los años descubri un par de cosas para hacer mi vida un poco mas facil reinstalando linux, aqui voy a compartir mis experiencias practicas y una de mis herramientas.</p>
+<h3 id="particiones">Particiones</h3>
+<blockquote>
+<p>Crear una particion aparte para <code>~/home</code>.</p>
+</blockquote>
+<p>Por mucho tiempo no le preste la atencion necesaria a esto y verdaderamente me arrepiento de no haber implementado esto antes.</p>
+<p>Pero, ¿Por que esto es tan importante?
+De hecho es sumamente simple, al tener una particion aparte para tus archivos, sabes que si queres hacer algun cambio radical en el sistema, como por ejemplo un passthrough pci-e, o cambiar algo en fstab, y no logras revertir los cambios, simplemente sobreescribes el sistema.</p>
+<p>Y al no tocar la particion home no estas en peligro de perder nada de tus datos.</p>
+<p>Supongamos que tenes un disco hd0 con esta estructura:</p>
+<pre tabindex="0"><code>|-sd0   / 
+|-sd1   /home 
+|-sd2   /boot
+</code></pre><p>Entonces solo tenemos que reescribir <code>sd0</code> y recargar el bootloader, lo cual por lo general es echo por el propio instalador si seleccionaste, las particiones manualmente.
+esto tambien nos habilita a encriptar solamente nuestros datos, para que de esa manera no perdamos el acceso al sistema <del>si es que</del> cuando perdamos la contraseña.</p>
+<h3 id="flatpak">Flatpak</h3>
+<p>Genial ahora tenemos un sistema completamente independiente de nuestros datos, podemos volar todo las veces que queramos, ¿Pero que pasa si no tenemos ni idea de como usar el package manager de la distro nueva?</p>
+<p>Ahi es donde flatpak brilla,
+dependiendo de tu distro la instalacion va a variar, en algunos casos puede que la omitas completamente.
+y con un par de comandos independientemente de la distro podes instalar con el mismo comando el programa de tu eleccion.
+ej:
+<code>flatpak install flathub org.mozilla.firefox</code></p>
+<h3 id="flatssh">Flats.sh</h3>
+<p>Flatpak es excelente de por si, pero ¿No seria mejor si puedo simplemente instalar todo de una vez?</p>
+<p>Para eso hice este <a href="https://github.com/Liopol2/flats.sh">script</a>, que se encarga de leer un archivo <code>flatpacks.txt</code> donde puedo copiar y pegar los programas que quiera y ejecutar una a una las lineas el archivo.
+Por ejemplo:</p>
+<blockquote>
+<p>flatpacks.txt</p>
+</blockquote>
+<pre tabindex="0"><code>flatpak install flathub org.mozilla.firefox
+flatpak install flathub com.visualstudio.code
+flatpak install flathub me.kozec.syncthingtk
+</code></pre><p>Instalando todo de una vez, y permitiendome trabajar en otras cosas como por ejemplo configurar syncthing o configurar otras partes del sistema.</p>
+<p>Espero que esto pueda ser de algun uso, y si deberia agregar o cambiar algo dejamelo saber.</p>
+<p>Esto es todo por ahora, gracias por leer.</p>
+
+    </div>
+</div>
+
+            </main>
+        </div>
+
+
+        <footer class="footer">
+    
+        <span>
+            © 2024 Liopol2, Built with
+            <a href="https://gohugo.io" class="footerLink">Hugo</a> and
+            <a href="https://github.com/LordMathis/hugo-theme-nightfall" class="footerLink">Nightfall</a> theme
+        </span>
+    
+</footer>
+    </div>
+
+</body>
+
+</html>

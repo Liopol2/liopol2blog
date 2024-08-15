@@ -8,8 +8,22 @@
     <language>en-us</language>
     <managingEditor>leonardosoumas3@gmail.com (Liopol2)</managingEditor>
     <webMaster>leonardosoumas3@gmail.com (Liopol2)</webMaster>
-    <lastBuildDate>Tue, 13 Aug 2024 19:44:39 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 15 Aug 2024 13:40:58 -0300</lastBuildDate>
     <atom:link href="https://liopol2blog.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ytdw</title>
+      <link>https://liopol2blog.netlify.app/projects/ytdw/ytdw/</link>
+      <pubDate>Thu, 15 Aug 2024 13:40:58 -0300</pubDate><author>leonardosoumas3@gmail.com (Liopol2)</author>
+      <guid>https://liopol2blog.netlify.app/projects/ytdw/ytdw/</guid>
+      <description>La pirateria es mala, peeeeeeeeeeeeeero.&#xA;No enserio, jamas podria apoyar el robo de la propiedad intelectual de otra persona. Dicho esto, tampoco puedo apoyar financieramente a una empresa que roba contenido para sus trabajos propios de los cuales recibe un redito financiero, o mismamente, de empresas que exprimen miles de millones de dolares a projectos open source , aprovechando la naturaleza de los mismo, sin aportar absolutamente nada de vuelta.</description>
+    </item>
+    <item>
+      <title>Flats.sh</title>
+      <link>https://liopol2blog.netlify.app/projects/flats.sh/flats.sh/</link>
+      <pubDate>Tue, 13 Aug 2024 23:21:02 -0300</pubDate><author>leonardosoumas3@gmail.com (Liopol2)</author>
+      <guid>https://liopol2blog.netlify.app/projects/flats.sh/flats.sh/</guid>
+      <description>Nada como un nuevo inicio, ya sea un nuevo dia, nuevo trabajo, nuevo auto, o porque no nuevo sistema.&#xA;Pero desgraciadamente, siempre que empezamos de 0 hay cosas que cambiar, para dejar todo a nuestro gusto, Este es mi caso cada que decido probar una nueva distro o cuando mi sistema lleva demasiado tiempo sin un buen reset.&#xA;Durante los años descubri un par de cosas para hacer mi vida un poco mas facil reinstalando linux, aqui voy a compartir mis experiencias practicas y una de mis herramientas.</description>
+    </item>
     <item>
       <title>Recomended Programs</title>
       <link>https://liopol2blog.netlify.app/posts/recomendedprograms/recomendedprograms/</link>
